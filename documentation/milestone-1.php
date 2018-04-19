@@ -24,5 +24,18 @@
 				The goal of this website is to mainly attract freelance clients.
 			</p>
 		</div>
+		<div>
+			<h1>Persona: Art Vandalay</h1>
+			<h2>Profile</h2>
+			<ul>
+				<li>Age: 47</li>
+				<li>Occupation: CEO of Vandalay Industries</li>
+				<li>Technology: MacBook Pro Laptop/ 4.8 Mac OS</li>
+				<li>Personality: Very candid, professional, very particular in his idea for an ideal candidate to fit his  website development needs</li>
+				<li>Scenario: Art is looking for a web developer to assist in establishing an online presence to increase his incoming business.</li>
+				<li>Frustrations: Art has already had experience with previous web developers during his business venture. The problem was that the past web developers he worked with could not forfill his vision he had for this website.</li>
+				<li>Goal: Art's goal is the find a web developer that can interpret his vision for his website, and bring it fruition. Fortunately, he has found the perfect individual to do so!</li>
+			</ul>
+		</div>
 	</body>
 </html>
