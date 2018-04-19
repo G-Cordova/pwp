@@ -14,6 +14,9 @@
 		</div>
 		<div>
 			<h2>Audience</h2>
+			<p>
+				The targeted audience of this website will be aimed at potential clients and employers.
+			</p>
 		</div>
 		<div>
 			<h2>Audience</h2>
