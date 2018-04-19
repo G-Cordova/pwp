@@ -19,7 +19,10 @@
 			</p>
 		</div>
 		<div>
-			<h2>Audience</h2>
+			<h2>Goal</h2>
+			<p>
+				The goal of this website is to mainly attract freelance clients.
+			</p>
 		</div>
 	</body>
 </html>
