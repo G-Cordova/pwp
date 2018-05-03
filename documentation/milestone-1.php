@@ -36,7 +36,10 @@
 				<li>Frustrations: Art has already had experience with previous web developers during his business venture. The problem was that the past web developers he worked with could not forfill his vision he had for this website.</li>
 				<li>Goal: Art's goal is the find a web developer that can interpret his vision for his website, and bring it fruition. Fortunately, he has found the perfect individual to do so!</li>
 			</ul>
-		</div>
+			<h2>WireFrames</h2>
+				<img src="mobilewireframe.png" height="865" width="537">
+			<img src="browserwireframe.png" height="1065" width="1020">
+			</div>
 	</body>
 </html>
 
