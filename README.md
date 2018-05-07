@@ -13,3 +13,8 @@ Your Milestone 1 passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/p
 #### Edits &amp; Suggestions
 - Directory structure needs to be fixed: place your `/documentation` directory inside a directory named `/public_html`. See instructions here: https://bootcamp-coders.cnm.edu/projects/personal/milestone-one/
 - Be sure to add `/vendor` to your .gitignore
+
+### Milestone 2a Feedback
+The wireframes you have here are a good start - but they are incomplete. **I don't see a contact form or a content strategy, and the project isn't set up correctly according to the instructions.** Please read the [Milestone 2a Documentation](https://bootcamp-coders.cnm.edu/projects/personal/milestone-two/) and add a Content Strategy and set the project up correctly by 8:00am Wed 5/9 and I'll bump your grade up to [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Please look at the [Sample Milestones](https://bootcamp-coders.cnm.edu/projects/personal/example/) for an example of our expectations for this project.
+
+Unfortunately because this Milestone is incomplete - it only qualifies for [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Please complete the requirements and circle back with me before beginning development on PWP. 
