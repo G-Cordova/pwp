@@ -37,8 +37,8 @@
 				<li>Goal: Art's goal is the find a web developer that can interpret his vision for his website, and bring it fruition. Fortunately, he has found the perfect individual to do so!</li>
 			</ul>
 			<h2>WireFrames</h2>
-				<img src="mobilewireframe.png" height="865" width="537">
-			<img src="browserwireframe.png" height="1065" width="1020">
+				<img src="mobile.png" height="1757" width="947">
+			<img src="desktopwireframe.png" height="1865" width="1020">
 			</div>
 	</body>
 </html>
