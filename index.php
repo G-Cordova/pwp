@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+		<link rel="stylesheet" type="text/css" href="./stylistics.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -17,8 +18,10 @@
 
 	<body>
 
+		<div class="row backgroundimg">
+
 		<div>
-			<nav class="container navbar">
+			<nav class="container navbar mt-3 mb-3">
 			<a class="navbar-brand"></a>
 			<a href="https://github.com/">GitHub</a>
 			<a href="https://google.com/">Email</a>
@@ -26,6 +29,7 @@
 			<a href="https://twitter.com/"">Twitter</a>
 			</nav>
 		</div>
+
 		<div class="container">
 			<div class="container-fluid mt-6">
 				<div class="jumbotron container">
@@ -36,10 +40,14 @@
 					<p>It uses utility classes for typography and
 						spacing to space content out within the larger container.</p>
 					<p class="lead">
-						<a class="btn btn-primary btn-lg" href="#!" role="button">Some action</a>
+						<a class="btn btn-primary btn-lg" href="#!" role="button">Contact me!</a>
 					</p>
 				</div>
 			</div>
+		</div>
+
+
+		</div>
 	</body>
 </html>
 
