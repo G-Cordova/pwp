@@ -39,7 +39,7 @@
 				<div class="jumbotron container">
 					<h1 class="display-3">Kick-start your business!</h1>
 					<p class="lead">
-						Are you a small business looking to build a digital presence to get you the exposure you need to grow? Is there a problem that your facing in your operations as a business? Or, are do you simply hold a passion that you are looking to exhibit to the entire world? No matter your needs, we at Apex Development Services can make this possible for you.
+						Are you a small business looking to build a digital presence to get you the exposure you need to grow? Is there a problem that your facing in your operations as a business? Or, are do you simply hold a passion that you are looking to exhibit to the entire world? No matter your needs, we at Apex Development Services can make that possible.
 					</p>
 					<hr class="my-2">
 					<p>Contact us below for a free consultation!</p>
@@ -51,7 +51,31 @@
 		</div>
 		</div>
 
-		<div class="modal fade" id="contactme" role="dialog">
+	<div class="container marketing">
+		<div class="row">
+			<div class="col-lg-4 text-center">
+				<img class="img-thumbnail rounded-circle d-flex align-center rounded mx-auto" src="rawpixel-550994-unsplash.jpg" alt="">
+				<div class="card">
+					Maintenance - If you already have a website that you are seeking assistance or various maintence services on the site, we do provide maintenece service varying based on each specific case.
+				</div>
+			</div>
+			<div class="col-lg-4 text-center">
+				<img class="img-thumbnail rounded-circle d-flex align-center rounded mx-auto" src="rawpixel-649916-unsplash (1).jpg" alt="">
+				<div class="card">
+					Front-End & Back-End Development - We do provide services in both.
+				</div>
+			</div>
+			<div class="col-lg-4 text-center">
+				<img class="img-thumbnail rounded-circle d-flex align-center rounded mx-auto" src="riccardo-annandale-140624-unsplash.jpg" alt="">
+				<div class="card">
+					Digital Marketing & Social Media
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="modal fade" id="contactme" role="dialog">
 			<div class="modal-dialogue">
 				<div class="modal-content">
 					<form class="form-horizontal"  role="form">
