@@ -4,7 +4,8 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<link rel="stylesheet" type="text/css" href="./stylistics.css">
+		<link rel="stylesheet" href="styles.css" type="text/css">
+
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -18,7 +19,6 @@
 
 	<body>
 
-		<div class="row backgroundimg">
 
 		<div>
 			<nav class="container navbar mt-3 mb-3">
@@ -30,8 +30,12 @@
 			</nav>
 		</div>
 
+		<div id="landing" class="view">
+			<div class="full-bg-img">
+			</div>
+
 		<div class="container">
-			<div class="container-fluid mt-6">
+			<div class="container-fluid mt-3">
 				<div class="jumbotron container">
 					<h1 class="display-3">Kickstart your business!</h1>
 					<p class="lead">This is a simple hero unit, a simple jumbotron-style component for
@@ -40,13 +44,45 @@
 					<p>It uses utility classes for typography and
 						spacing to space content out within the larger container.</p>
 					<p class="lead">
-						<a class="btn btn-primary btn-lg" href="#!" role="button">Contact me!</a>
+						<a class="btn btn-primary btn-lg" href="#contactme" data-toggle="modal">Contact me!</a>
 					</p>
 				</div>
 			</div>
 		</div>
+		</div>
 
+		<div class="modal fade" id="contactme" role="dialog">
+			<div class="modal-dialogue">
+				<div class="modal-content">
+					<form class="form-horizontal"  role="form">
+						<div class="modal-header">
+							<h4>Contact Me</h4>
+						</div>
+						<div class="modal-body">
+							<div class="form-group">
+								<label for="contact-name" class="col-sm-2 control-label">Name</label>
+								<div class="col-sm-10">
+									<input type="text" name="form-control" id="contact-name" placeholder="Your Name">
+								</div>
+							</div>
+						</div>
+							<div class="form-group">
+								<label for="contact-email" class="col-sm-2 control-label">Email</label>
+								<div class="col-sm-10">
+									<input type="email" name="form-control" id="contact-email" placeholder="example@domain.com">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="contact-message" class="col-sm-2 control-label">Message</label>
+								<div class="col-sm-10">
+									<input type="text" name="form-control" id="contact-name" placeholder="Your Message here...">
+								</div>
+							</div>
 
+						</div>
+					</form>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
