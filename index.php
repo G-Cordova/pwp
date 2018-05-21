@@ -75,6 +75,14 @@
 		</div>
 	</div>
 
+<footer>
+	<div class="container-fluid text-center text-white bg-dark mt-3">
+		<p>
+			Apex Web Development LLC.
+			2018
+		</p>
+	</div>
+</footer>
 
 	<div class="modal fade" id="contactme" role="dialog">
 			<div class="modal-dialogue">
