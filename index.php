@@ -56,30 +56,30 @@
 			<div class="col-lg-4 text-center">
 				<img class="img-thumbnail rounded-circle d-flex align-center rounded mx-auto" src="rawpixel-550994-unsplash.jpg" alt="">
 				<div class="card">
-					Digital Marketing & Social Media
-					Lucas ipsum dolor sit amet malastare sesswenna bane ysanne cb-99 nahdar keyan iblis hutt anzati. Qui-gonn hutt myneyrsh theelin darth lyn omwati offee. Kasan sanyassan max tharen veila. Neimoidian kit zuckuss qui-gon kaleesh oswaft bajic binks felucia. Annoo shado su thisspias d8 bria tyber givin needa. Gossam sluis evazan feeorin. Yarael corran sulorine talortai var nautolan kamino. Tharen bib salacious cassio bel yavin shadda bossk. Abregado muzzer borvo isard lobot. Ubb crynyd tof sifo-dyas shado arkanian sanyassan.
+					Digital Marketing & Social Media - Whether you are looking to just create a Social Media presence via Instagram, or looking to grow you customer base; we can help!
 				</div>
 			</div>
 			<div class="col-lg-4 text-center">
 				<img class="img-thumbnail rounded-circle d-flex align-center rounded mx-auto" src="rawpixel-649916-unsplash (1).jpg" alt="">
 				<div class="card">
-					Maintenance - If you already have a website that you are seeking assistance or various maintence services on the site, we do provide maintenece service varying based on each specific case.
+					Maintenance - If you already have a website that you are seeking assistance or various maintence services on the site, we do provide maintenece service varying based on each specific case. Regardless, of the platform initially being used; we can help!
 				</div>
 			</div>
 			<div class="col-lg-4 text-center">
 				<img class="img-thumbnail rounded-circle d-flex align-center rounded mx-auto" src="riccardo-annandale-140624-unsplash.jpg" alt="">
 				<div class="card">
-					Front-End & Back-End Development - We do provide services in both.
+					Front-End & Back-End Development - We do provide services to develop both websites that aim to intrigue potential customers, as well as to assist with creating platforms to help your business run smoother and potentially increase your profit margin!
 				</div>
 			</div>
 		</div>
 	</div>
 
 <footer>
-	<div class="container-fluid text-center text-white bg-dark mt-3">
+	<div class="sticky-footer text-center text-light bg-dark pt-2 pb-0 m-0 fixed-bottom">
 		<p>
-			Apex Web Development LLC.
-			2018
+			<a href="https://github.com/G-Cordova/" target="_blank"><i class="fab fa-github fa-2x text-light"></i></a>
+			<a href="https://www.linkedin.com/in/g-cordova-13993415a/" target="_blank"><i class="fab fa-linkedin fa-2x text-light"></i></a>
+			<a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square fa-2x text-light"></i></a>
 		</p>
 	</div>
 </footer>
