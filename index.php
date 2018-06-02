@@ -14,11 +14,23 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+		<!-- Your JavaScript Form Validator -->
+		<script src="js/form-validate.js"></script>
+
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+
 		<title>G-Cordova-pwp</title>
 	</head>
 
 	<body>
 <div>
+
 
 		<div>
 			<nav class="container navbar mt-3 mb-3">
@@ -30,11 +42,10 @@
 			</nav>
 		</div>
 
-		<div id="landing" class="view">
-			<div class="full-bg-img">
-			</div>
 
-		<div class="row-fluid mt-9">
+
+		<div id="landing" class="view">
+		<div class="mt-3">
 			<div class="container-fluid">
 				<div class="jumbotron container">
 					<h1 class="display-3">Kick-start your business!</h1>
@@ -51,7 +62,7 @@
 		</div>
 		</div>
 
-	<div class="container marketing mt-3">
+	<div class="container marketing mt-3 py-">
 		<div class="row">
 			<div class="col-lg-4 text-center">
 				<img class="img-thumbnail rounded-circle d-flex align-center rounded mx-auto" src="rawpixel-550994-unsplash.jpg" alt="">
@@ -84,7 +95,7 @@
 	</div>
 </footer>
 
-	<div class="modal fade" id="contactme" role="dialog">
+	<div class="modal fade" id="contactme" role="dialog" method="post" action="php/mailer.php">
 			<div class="modal-dialogue">
 				<div class="modal-content">
 					<form class="form-horizontal"  role="form">
@@ -112,12 +123,13 @@
 								</div>
 							</div>
 
-						<div class="container fluid">
+						<div class="g-recaptcha" data-sitekey="6LdEaVwUAAAAAIc5peS7onDxa1W8zSZhrSr0x9PH"></div>
+						<button class="btn btn-info" type="submit">Submit</button>
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+				</form>
 
-						</div>
 
-						</div>
-					</form>
 				</div>
 			</div>
 		</div>
