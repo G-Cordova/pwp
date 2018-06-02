@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<link rel="stylesheet" href="styles.css" type="text/css">
+		<link rel="stylesheet" href="css/styles.css" type="text/css">
 
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
@@ -32,13 +32,21 @@
 <div>
 
 
-		<div>
-			<nav class="container navbar mt-3 mb-3">
+		<div id="navigate">
+			<nav class="container navbar my-3">
 			<a class="navbar-brand"></a>
+				<div class="col-md">
 			<a href="https://github.com/">GitHub</a>
-			<a href="https://google.com/">Email</a>
-			<a href="https://www.linkedin.com/"">Linkedin</a>
-			<a href="https://twitter.com/"">Twitter</a>
+				</div>
+			<div class="col-md">
+				<a href="https://google.com/">Email</a>
+			</div>
+				<div class="col-md">
+			<a href="https://www.linkedin.com/">Linkedin</a>
+				</div>
+				<div class="col-md">
+				<a href="https://twitter.com/">Twitter</a>
+				</div>
 			</nav>
 		</div>
 
@@ -65,19 +73,19 @@
 	<div class="container marketing mt-3 py-">
 		<div class="row">
 			<div class="col-lg-4 text-center">
-				<img class="img-thumbnail rounded-circle d-flex align-center rounded mx-auto" src="rawpixel-550994-unsplash.jpg" alt="">
+				<img class="img-thumbnail rounded-circle d-flex align-center rounded mx-auto" src="../rawpixel-550994-unsplash.jpg" alt="">
 				<div class="card">
 					Digital Marketing & Social Media - Whether you are looking to just create a Social Media presence via Instagram, or looking to grow you customer base; we can help!
 				</div>
 			</div>
 			<div class="col-lg-4 text-center">
-				<img class="img-thumbnail rounded-circle d-flex align-center rounded mx-auto" src="rawpixel-649916-unsplash (1).jpg" alt="">
+				<img class="img-thumbnail rounded-circle d-flex align-center rounded mx-auto" src="../rawpixel-649916-unsplash%20(1).jpg" alt="">
 				<div class="card">
 					Maintenance - If you already have a website that you are seeking assistance or various maintence services on the site, we do provide maintenece service varying based on each specific case. Regardless, of the platform initially being used; we can help!
 				</div>
 			</div>
 			<div class="col-lg-4 text-center">
-				<img class="img-thumbnail rounded-circle d-flex align-center rounded mx-auto" src="riccardo-annandale-140624-unsplash.jpg" alt="">
+				<img class="img-thumbnail rounded-circle d-flex align-center rounded mx-auto" src="images/riccardo-annandale-140624-unsplash.jpg" alt="">
 				<div class="card">
 					Front-End & Back-End Development - We do provide services to develop both websites that aim to intrigue potential customers, as well as to assist with creating platforms to help your business run smoother and potentially increase your profit margin!
 				</div>
@@ -85,8 +93,9 @@
 		</div>
 	</div>
 
+<!--	FOOTER -->
 <footer>
-	<div class="sticky-footer text-center text-light bg-dark pt-2 pb-0 m-0 fixed-bottom">
+	<div class="sticky-footer text-center text-light bg-dark pt-2 pb-0 m-0">
 		<p>
 			<a href="https://github.com/G-Cordova/" target="_blank"><i class="fab fa-github fa-2x text-light"></i></a>
 			<a href="https://www.linkedin.com/in/g-cordova-13993415a/" target="_blank"><i class="fab fa-linkedin fa-2x text-light"></i></a>
@@ -95,6 +104,7 @@
 	</div>
 </footer>
 
+<!--	CONTACT FORM -->
 	<div class="modal fade" id="contactme" role="dialog" method="post" action="php/mailer.php">
 			<div class="modal-dialogue">
 				<div class="modal-content">
@@ -110,24 +120,38 @@
 								</div>
 							</div>
 						</div>
+						<div class="modal-body">
 							<div class="form-group">
 								<label for="contact-email" class="col-sm-2 control-label">Email</label>
 								<div class="col-sm-10">
 									<input type="email" name="form-control" id="contact-email" placeholder="example@domain.com">
 								</div>
 							</div>
+						</div>
+						<div class="modal-body">
 							<div class="form-group">
 								<label for="contact-message" class="col-sm-2 control-label">Message</label>
 								<div class="col-sm-10">
 									<input type="text" name="form-control" id="contact-name" placeholder="Your Message here...">
 								</div>
 							</div>
+						</div>
 
-						<div class="g-recaptcha" data-sitekey="6LdEaVwUAAAAAIc5peS7onDxa1W8zSZhrSr0x9PH"></div>
-						<button class="btn btn-info" type="submit">Submit</button>
-						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				</div>
+
+<!--						GOOGLE CAPTCHA-->
+						<div class="modal-body">
+							<div class="g-recaptcha" data-sitekey="6LdEaVwUAAAAAIc5peS7onDxa1W8zSZhrSr0x9PH"></div>
+
+<!--							BUTTONS-->
+
+							<div class="modal-body">
+							<button class="btn btn-info" type="submit">Submit</button>
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							</div>
+						</div>
 				</form>
+
+					<div id="output-area"></div>
 
 
 				</div>
