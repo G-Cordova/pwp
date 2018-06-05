@@ -42,18 +42,18 @@
 
 
 			<div id="navigate">
-				<nav class="container navbar my-3">
+				<nav class="container navbar text-center py-3">
 					<a class="navbar-brand"></a>
-					<div class="col-md">
+					<div class="col">
 						<a href="https://github.com/">GitHub</a>
 					</div>
-					<div class="col-md">
+					<div class="col">
 						<a href="https://google.com/">Email</a>
 					</div>
-					<div class="col-md">
+					<div class="col">
 						<a href="https://www.linkedin.com/">Linkedin</a>
 					</div>
-					<div class="col-md">
+					<div class="col">
 						<a href="https://twitter.com/">Twitter</a>
 					</div>
 				</nav>
@@ -65,9 +65,9 @@
 			</div>
 
 			<div id="landing" class="view">
-				<div class="mt-3">
+				<div class="py-5">
 					<div class="container-fluid">
-						<div class="jumbotron container">
+						<div class="hero container">
 							<h1 class="display-3">Kick-start your business!</h1>
 							<p class="lead">
 								Are you a small business looking to build a digital presence to get you the exposure you need to
@@ -85,26 +85,26 @@
 				</div>
 			</div>
 
-			<div class="container marketing mt-3 py-">
+			<div class="container marketing my-5 py-5">
 				<div class="row">
-					<div class="col-lg-4 text-center">
+					<div class="col-lg-4 pt-3 text-center">
 						<img class="img-thumbnail rounded-circle d-flex align-center rounded mx-auto"
-							  src="rawpixel-550994-unsplash.jpg" alt="">
+							  src="images/rawpixel-550994-unsplash.jpg" alt="">
 						<div class="card">
 							Digital Marketing & Social Media - Whether you are looking to just create a Social Media presence
 							via Instagram, or looking to grow you customer base; we can help!
 						</div>
 					</div>
-					<div class="col-lg-4 text-center">
+					<div class="col-lg-4 pt-3 text-center">
 						<img class="img-thumbnail rounded-circle d-flex align-center rounded mx-auto"
-							  src="rawpixel-649916-unsplash%20(1).jpg" alt="">
+							  src="images/rawpixel-649916-unsplash%20(1).jpg" alt="">
 						<div class="card">
 							Maintenance - If you already have a website that you are seeking assistance or various maintenance
 							services on the site, we do provide maintenance service varying based on each specific case.
 							Regardless, of the platform initially being used; we can help!
 						</div>
 					</div>
-					<div class="col-lg-4 text-center">
+					<div class="col-lg-4 pt-3 text-center">
 						<img class="img-thumbnail rounded-circle d-flex align-center rounded mx-auto"
 							  src="images/riccardo-annandale-140624-unsplash.jpg" alt="">
 						<div class="card">
@@ -116,14 +116,15 @@
 				</div>
 			</div>
 
+
 			<!--	FOOTER -->
 			<footer>
-				<div class="sticky-footer text-center text-light bg-dark pt-2 pb-0 m-0">
+				<div class="sticky-footer text-center text-light bg-dark pt-1">
 					<p>
-						<a href="https://github.com/G-Cordova/" target="_blank"><i class="fab fa-github fa-2x text-light"></i></a>
+						<a href="https://github.com/G-Cordova/" target="_blank"><i class="fab fa-github fa-2x text-light p-3"></i></a>
 						<a href="https://www.linkedin.com/in/g-cordova-13993415a/" target="_blank"><i
-								class="fab fa-linkedin fa-2x text-light"></i></a>
-						<a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square fa-2x text-light"></i></a>
+								class="fab fa-linkedin fa-2x text-light p-3"></i></a>
+						<a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square fa-2x text-light p-3"></i></a>
 					</p>
 				</div>
 			</footer>

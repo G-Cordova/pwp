@@ -2,6 +2,7 @@ html,
 body,
 #landing {
 	height: 100%;
+	text-decoration-color: azure;
 }
 
 #landing {
@@ -13,5 +14,6 @@ body,
 }
 
 #navigate {
-	background-color: aqua;
+	background-color: black;
 }
+
