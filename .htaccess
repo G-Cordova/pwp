@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^apex-development.com$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.apex-development.com$
+RewriteCond %{REQUEST_URI} !public_html/
+
+RewriteRule (.*) /public_html/$1 [L]
+
+# this forces SSL connection
+RewriteCond %{HTTPS} !=on
+RewriteRule (.*) https://apex-development.com/$1 [L]
+
