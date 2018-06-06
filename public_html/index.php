@@ -64,7 +64,7 @@
 			<div id="landing" class="view">
 				<div class="py-5">
 					<div class="container-fluid">
-						<div class="hero container">
+						<div class="hero container text-light">
 							<h1 class="display-3">Kick-start your business!</h1>
 							<p class="lead">
 								Are you a small business looking to build a digital presence to get you the exposure you need to
@@ -86,16 +86,16 @@
 				<div class="row">
 					<div class="col-lg-4 pt-3 text-center">
 						<img class="img-thumbnail rounded-circle d-flex align-center rounded mx-auto"
-							  src="images/rawpixel-649916-unsplash (1).jpg" alt="skyscraperphoto">
-						<div class="card p-5">
+							  src="images/two.jpg" alt="skyscraperphoto">
+						<div class="card p-5 border-white">
 							Digital Marketing & Social Media - Whether you are looking to just create a Social Media presence
 							via Instagram, or looking to grow you customer base; we can help!
 						</div>
 					</div>
 					<div class="col-lg-4 pt-3 text-center">
 						<img class="img-thumbnail rounded-circle d-flex align-center rounded mx-auto"
-							  src="images/rawpixel-649916-unsplash%20(1).jpg" alt="businessmeetingphoto">
-						<div class="card pt-5">
+							  src="images/three.jpg" alt="businessmeetingphoto">
+						<div class="card pt-5 border-white">
 							Maintenance - If you already have a website that you are seeking assistance or various maintenance
 							services on the site, we do provide maintenance service varying based on each specific case.
 							Regardless, of the platform initially being used; we can help!
@@ -103,8 +103,8 @@
 					</div>
 					<div class="col-lg-4 pt-3 text-center">
 						<img class="img-thumbnail rounded-circle d-flex align-center rounded mx-auto"
-							  src="images/riccardo-annandale-140624-unsplash.jpg" alt="idealightphoto">
-						<div class="card pt-5">
+							  src="images/one.jpg" alt="idealightphoto">
+						<div class="card pt-5 border-white">
 							Front-End & Back-End Development - We do provide services to develop both websites that aim to
 							intrigue potential customers, as well as to assist with creating platforms to help your business
 							run smoother and potentially increase your profit margin!
