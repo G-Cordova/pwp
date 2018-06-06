@@ -34,7 +34,7 @@
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
-		<title>G-Cordova-pwp</title>
+		<title>apexdevelopment</title>
 	</head>
 
 	<body>
@@ -45,16 +45,13 @@
 				<nav class="container navbar text-center py-3">
 					<a class="navbar-brand"></a>
 					<div class="col">
-						<a href="https://github.com/">GitHub</a>
+						<a href="https://github.com/G-Cordova">GitHub</a>
 					</div>
 					<div class="col">
-						<a href="https://google.com/">Email</a>
+						<a href="https://www.linkedin.com/in/g-cordova-13993415a/">Linkedin</a>
 					</div>
 					<div class="col">
-						<a href="https://www.linkedin.com/">Linkedin</a>
-					</div>
-					<div class="col">
-						<a href="https://twitter.com/">Twitter</a>
+						<a href="https://twitter.com/DevelopmentApex">Twitter</a>
 					</div>
 				</nav>
 			</div>
@@ -89,16 +86,16 @@
 				<div class="row">
 					<div class="col-lg-4 pt-3 text-center">
 						<img class="img-thumbnail rounded-circle d-flex align-center rounded mx-auto"
-							  src="images/rawpixel-550994-unsplash.jpg" alt="">
-						<div class="card">
+							  src="images/rawpixel-649916-unsplash (1).jpg" alt="skyscraperphoto">
+						<div class="card p-5">
 							Digital Marketing & Social Media - Whether you are looking to just create a Social Media presence
 							via Instagram, or looking to grow you customer base; we can help!
 						</div>
 					</div>
 					<div class="col-lg-4 pt-3 text-center">
 						<img class="img-thumbnail rounded-circle d-flex align-center rounded mx-auto"
-							  src="images/rawpixel-649916-unsplash%20(1).jpg" alt="">
-						<div class="card">
+							  src="images/rawpixel-649916-unsplash%20(1).jpg" alt="businessmeetingphoto">
+						<div class="card pt-5">
 							Maintenance - If you already have a website that you are seeking assistance or various maintenance
 							services on the site, we do provide maintenance service varying based on each specific case.
 							Regardless, of the platform initially being used; we can help!
@@ -106,8 +103,8 @@
 					</div>
 					<div class="col-lg-4 pt-3 text-center">
 						<img class="img-thumbnail rounded-circle d-flex align-center rounded mx-auto"
-							  src="images/riccardo-annandale-140624-unsplash.jpg" alt="">
-						<div class="card">
+							  src="images/riccardo-annandale-140624-unsplash.jpg" alt="idealightphoto">
+						<div class="card pt-5">
 							Front-End & Back-End Development - We do provide services to develop both websites that aim to
 							intrigue potential customers, as well as to assist with creating platforms to help your business
 							run smoother and potentially increase your profit margin!
@@ -124,7 +121,7 @@
 						<a href="https://github.com/G-Cordova/" target="_blank"><i class="fab fa-github fa-2x text-light p-3"></i></a>
 						<a href="https://www.linkedin.com/in/g-cordova-13993415a/" target="_blank"><i
 								class="fab fa-linkedin fa-2x text-light p-3"></i></a>
-						<a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square fa-2x text-light p-3"></i></a>
+						<a href="https://twitter.com/DevelopmentApex" target="_blank"><i class="fab fa-twitter-square fa-2x text-light p-3"></i></a>
 					</p>
 				</div>
 			</footer>
